@@ -1,0 +1,35 @@
+[35mreact-docs-renderer:build[0m: cache hit, replaying output [2m450aaded58202d0b[0m
+[35mreact-docs-renderer:build: [0m
+[35mreact-docs-renderer:build: [0m> react-docs-renderer@1.0.1 build C:\Users\abder\react-docs-renderer\lib\react-docs-renderer
+[35mreact-docs-renderer:build: [0m> tsup src/index.ts --dts --format esm,cjs
+[35mreact-docs-renderer:build: [0m
+[35mreact-docs-renderer:build: [0m[34mCLI[39m Building entry: src/index.ts
+[35mreact-docs-renderer:build: [0m[34mCLI[39m Using tsconfig: tsconfig.json
+[35mreact-docs-renderer:build: [0m[34mCLI[39m tsup v6.2.3
+[35mreact-docs-renderer:build: [0m[34mCLI[39m Target: node14
+[35mreact-docs-renderer:build: [0m[34mESM[39m Build start
+[35mreact-docs-renderer:build: [0m[34mCJS[39m Build start
+[35mreact-docs-renderer:build: [0m[32mESM[39m [1mdist\index.js             [22m[32m923.52 KB[39m
+[35mreact-docs-renderer:build: [0m[32mESM[39m [1mdist\canvas-B2L3CHNY.node [22m[32m1.50 MB[39m
+[35mreact-docs-renderer:build: [0m[32mESM[39m ⚡️ Build success in 183ms
+[35mreact-docs-renderer:build: [0m[32mCJS[39m [1mdist\index.cjs            [22m[32m925.21 KB[39m
+[35mreact-docs-renderer:build: [0m[32mCJS[39m [1mdist\canvas-B2L3CHNY.node [22m[32m1.50 MB[39m
+[35mreact-docs-renderer:build: [0m[32mCJS[39m ⚡️ Build success in 168ms
+[35mreact-docs-renderer:build: [0m[34mDTS[39m Build start
+[35mreact-docs-renderer:build: [0msrc/lib/components/DocumentViewer/DocumentViewer.tsx(33,31): error TS6133: 'step' is declared but its value is never read.
+[35mreact-docs-renderer:build: [0m
+[35mreact-docs-renderer:build: [0m[31mError: error occured in dts build
+[35mreact-docs-renderer:build: [0m    at Worker.<anonymous> (C:\Users\abder\react-docs-renderer\node_modules\.pnpm\tsup@6.2.3_okld4vkeyvk2drksksfcbrxu3u\node_modules\tsup\dist\index.js:2157:26)
+[35mreact-docs-renderer:build: [0m    at Worker.emit (node:events:513:28)
+[35mreact-docs-renderer:build: [0m    at MessagePort.<anonymous> (node:internal/worker:233:53)
+[35mreact-docs-renderer:build: [0m    at MessagePort.[nodejs.internal.kHybridDispatch] (node:internal/event_target:694:20)
+[35mreact-docs-renderer:build: [0m    at MessagePort.exports.emitMessage (node:internal/per_context/messageport:23:28)[39m
+[35mreact-docs-renderer:build: [0m[31mError: Failed to compile. Check the logs above.
+[35mreact-docs-renderer:build: [0m    at error (C:\Users\abder\react-docs-renderer\node_modules\.pnpm\rollup@2.79.1\node_modules\rollup\dist\shared\rollup.js:198:30)
+[35mreact-docs-renderer:build: [0m    at throwPluginError (C:\Users\abder\react-docs-renderer\node_modules\.pnpm\rollup@2.79.1\node_modules\rollup\dist\shared\rollup.js:21718:12)
+[35mreact-docs-renderer:build: [0m    at Object.error (C:\Users\abder\react-docs-renderer\node_modules\.pnpm\rollup@2.79.1\node_modules\rollup\dist\shared\rollup.js:22672:20)
+[35mreact-docs-renderer:build: [0m    at Object.error (C:\Users\abder\react-docs-renderer\node_modules\.pnpm\rollup@2.79.1\node_modules\rollup\dist\shared\rollup.js:21895:42)
+[35mreact-docs-renderer:build: [0m    at Object.transform (C:\Users\abder\react-docs-renderer\node_modules\.pnpm\tsup@6.2.3_okld4vkeyvk2drksksfcbrxu3u\node_modules\tsup\dist\rollup.js:7217:20)
+[35mreact-docs-renderer:build: [0m    at C:\Users\abder\react-docs-renderer\node_modules\.pnpm\rollup@2.79.1\node_modules\rollup\dist\shared\rollup.js:22879:40[39m
+[35mreact-docs-renderer:build: [0m[31mDTS[39m [31mBuild error[39m
+[35mreact-docs-renderer:build: [0m ELIFECYCLE  Command failed with exit code 1.
