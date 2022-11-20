@@ -13,6 +13,8 @@ export const DocsRendererMainContainer = styled.div`
     width: inherit;
   }
 `;
+// use this instead
+//<TransformComponent wrapperStyle={{ width: "100%", height: "calc(100vh - 136px)" }}>
 
 export const StyledScrollContainer = styled(TransformWrapper)``;
 export const StyledTransformComponent = styled(TransformComponent)`
